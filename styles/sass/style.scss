@@ -1,0 +1,29 @@
+@import "queries";
+
+
+body{
+    background: rgb(182, 227, 245);
+}
+
+h1{
+    
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: salmon;
+    text-transform: uppercase;
+    text-align: center;    
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;  
+}
+label{
+    font-size: 20px;
+    font-family: 'Vidaloka', serif;    
+}
+.submitContainer{
+    background-color: turquoise;
+    text-transform: uppercase;
+    
+}
+
