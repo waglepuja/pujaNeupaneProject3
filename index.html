@@ -1,101 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project3</title>
     <link rel="stylesheet" href="styles/sass/style.scss">
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Vidaloka&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 </head>
+
 <body>
 
     <main>
-        <header>
+        <header class="clearfix">
             <h1>Let's Have Fun!</h1>
+        <div class="gallery">
+            <img src="https://cn.i.cdn.tides.test-ti-platform.com/cnapac/content/2017/showpage/ben-10/sa/showicon.png" alt="#">
+            <img src="https://lajoyalink.com/wp-content/uploads/2018/03/Movie.jpg" alt="#">
+        </div>
         </header>
 
-        
+
         <form action="">
-            
+
 
             <fieldset class="entertainment">
-                    <p> Do you want to watch movie or play video game?</p>
-                    <label for="movie">Movie</label>
-                    <input type="radio" name="funTime" id="movie" value="movie">
-                    <label for="games">Games</label>
-                    <input type="radio" name="funTime" id="Video game" value="games">
+                <p>Movie or a Game?</p>
+            <div class="moviesGames">
+            <div class="movies">               
+                <input type="radio" name="funTime" id="movie" value="movie" required>
+                <label for="movie">Movies</label>
+            </div>         
+                
+            <div class="games">
+                <input type="radio" name="funTime" id="Video game" value="games">
+                <label for="games">Games</label>
+            </div>
+            </div>
 
             </fieldset>
 
             <fieldset class="input">
                 <div class="genre1">
-                
-                    <p> Let's Explore!!</p>
-                <div class="horror">
-                    <input type="radio" name="genre" id="fun" value="horror">
-                    <label for="fun">Horror</label>
-                    
-                </div>
-                <div class="action">
-                    <input type="radio" name="genre" id="fun" value="action">
-                    <label for="fun">Action</label>
-                    
-                </div>
-                <div class="romance">
-                    <input type="radio" name="genre" id="fun" value="romance">
-                    <label for="fun">Romance</label>
-                    
-                </div>
-                <div class="thriller">
-                    <input type="radio" name="genre" id="fun" value="thriller">
-                    <label for="fun">Thriller</label>
-                    
-                </div>
-            </div>
 
-            <div class="genre2">
+                    <p> Pick your own movies genre!</p>
+                    <div class="horror">
+                        <input type="radio" name="genre" id="fun" value="horror" required>
+                        <label for="fun">Horror</label>
 
-                 <p> Let's Explore</p>   
-                <div class="shooter">
-                    <input type="radio" name="genre" id="fun" value="shooter">
-                    <label for="fun">Shooter</label>
-                    
-                </div>
-                <div class="survival">
-                    <input type="radio" name="genre" id="fun" value="survival">
-                    <label for="fun">Survival</label>
-                    
-                </div>
-                <div class="platform">
-                    <input type="radio" name="genre" id="fun" value="platform">
-                    <label for="fun">Platform</label>
-                    
-                </div>
-                <div class="fighting">
-                    <input type="radio" name="genre" id="fun" value="fighting">
-                    <label for="fun">Fighting</label>
-                    
+                    </div>
+                    <div class="action">
+                        <input type="radio" name="genre" id="fun" value="action">
+                        <label for="fun">Action</label>
+
+                    </div>
+                    <div class="romance">
+                        <input type="radio" name="genre" id="fun" value="romance">
+                        <label for="fun">Romance</label>
+
+                    </div>
+                    <div class="thriller">
+                        <input type="radio" name="genre" id="fun" value="thriller">
+                        <label for="fun">Thriller</label>
+
+                    </div>
                 </div>
 
+                <div class="genre2">
 
-            </div>
-                
-                    <div class="submitContainer">
-                        <input type="submit" value="See my results!">
+                    <p> Pick your own games genre!</p>
+                    <div class="shooter">
+                        <input type="radio" name="genre" id="fun" value="shooter">
+                        <label for="fun">Shooter</label>
+
+                    </div>
+                    <div class="survival">
+                        <input type="radio" name="genre" id="fun" value="survival">
+                        <label for="fun">Survival</label>
+
+                    </div>
+                    <div class="platform">
+                        <input type="radio" name="genre" id="fun" value="platform">
+                        <label for="fun">Platform</label>
+
+                    </div>
+                    <div class="fighting">
+                        <input type="radio" name="genre" id="fun" value="fighting">
+                        <label for="fun">Fighting</label>
+
                     </div>
 
-                </fieldset>
-        </form>
-    
-        <section class="answer">
 
+                </div>
+                <div class="error">
+                    <span></span>
+
+                </div>
+
+
+                <div class="submitContainer">
+                    <input  type="submit" class="button" value="See my results!">
+                </div>
+
+                <!-- <div class="socialMedia">
+                    <a href=""></a>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i>
+        
+                </div> -->
+
+            </fieldset>
+        </form>
+
+        <section class="answer">
         </section>
+        
+        
     </main>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-	<script src="script.js"></script>
-    
+    <script src="script.js"></script>
+
 </body>
+
 </html>
