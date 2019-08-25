@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project3</title>
-    <link rel="stylesheet" href="styles/sass/style.scss">
+    <link rel="stylesheet" href="styles/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lobster|Vidaloka&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
         integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
@@ -17,10 +18,11 @@
     <main>
         <header class="clearfix">
             <h1>Let's Have Fun!</h1>
-        <div class="gallery">
-            <img src="https://cn.i.cdn.tides.test-ti-platform.com/cnapac/content/2017/showpage/ben-10/sa/showicon.png" alt="#">
-            <img src="https://lajoyalink.com/wp-content/uploads/2018/03/Movie.jpg" alt="#">
-        </div>
+            <div class="gallery">
+                <img src="https://cn.i.cdn.tides.test-ti-platform.com/cnapac/content/2017/showpage/ben-10/sa/showicon.png"
+                    alt="#">
+                <img src="https://lajoyalink.com/wp-content/uploads/2018/03/Movie.jpg" alt="#">
+            </div>
         </header>
 
 
@@ -29,21 +31,21 @@
 
             <fieldset class="entertainment">
                 <p>Want to see a movie or play a game?</p>
-            <div class="moviesGames">
-            <div class="movies">               
-                <input type="radio" name="funTime" id="movie" value="movie" required>
-                <label for="movie">Movies</label>
-            </div>         
-                
-            <div class="games">
-                <input type="radio" name="funTime" id="Video game" value="games">
-                <label for="games">Games</label>
-            </div>
-            </div>
+                <div class="moviesGames">
+                    <div class="movies">
+                        <input type="radio" name="funTime" id="movie" value="movie" required>
+                        <label for="movie">Movies</label>
+                    </div>
+
+                    <div class="games">
+                        <input type="radio" name="funTime" id="Video game" value="games">
+                        <label for="games">Games</label>
+                    </div>
+                </div>
 
             </fieldset>
 
-            <fieldset class="input">
+            <fieldset class="input" id="input">
                 <div class="genre1">
 
                     <p> Don't think about it, just pick one!</p>
@@ -93,33 +95,20 @@
 
                     </div>
 
-
                 </div>
-                <!-- <div class="error">
-                    <span></span>
-
-                </div> -->
 
 
                 <div class="submitContainer">
-                    <input   type="submit" class="button" value="See my results!">
+                    <input type="submit" class="button" value="See my results!">
                 </div>
-
-                <!-- <div class="socialMedia">
-                    <a href=""></a>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-facebook-f"></i>
-        
-                </div> -->
 
             </fieldset>
         </form>
 
         <section class="answer">
         </section>
-        
-        
+
+
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>

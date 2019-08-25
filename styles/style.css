@@ -242,27 +242,6 @@ label,
   text-transform: uppercase;
 }
 
-body {
-  background: #85cef8;
-}
-
-fieldset {
-  border: 0;
-}
-
-h1,
-p,
-.answer {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-}
-
-h1,
-label,
-.error {
-  text-transform: uppercase;
-}
-
 h1 {
   font-size: 100px;
   color: black;
