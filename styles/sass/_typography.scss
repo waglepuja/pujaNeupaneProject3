@@ -1,1 +1,17 @@
-
+body{
+    background:rgb(133, 206, 248);
+}
+fieldset{
+    border: 0;
+}
+h1,
+p,
+.answer{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h1,
+label,
+.error{
+    text-transform: uppercase;
+}
