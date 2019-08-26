@@ -50,7 +50,7 @@ $(document).ready(function(){
 		passedArray.length);
         return passedArray[randomNum];
     }
-    // To Display genres for either movies or games 
+    // To Display genres for either movies or games. DOM used from HTML 
 
     $('input[name="funTime"]').change(function(){
         let userEntertainments =$('input[name="funTime"]:checked').val();
@@ -123,6 +123,10 @@ $(document).ready(function(){
 
     });
 
+    // DOM ends here
+
+    // Form submit starts here
+
     $('form').on('submit', function(event){
         event.preventDefault();
                
@@ -143,6 +147,8 @@ $(document).ready(function(){
     const finalResults = getRandomItemFromArray(filteredArray);  
     
     $('input:radio').prop("checked", false);
+
+    // Answer display starts here
     
     $('.answer').html(`<h2 class ="choice">${finalResults}</h2>`) 
      
