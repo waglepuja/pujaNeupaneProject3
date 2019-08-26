@@ -1,5 +1,17 @@
+// VARIABLES
+
+$black:#000000;
+$purple:#800080;
+$white:#ffffff;
+$limegreen:#45e040;
+$orangered:#ff4500;
+$blue:#0000ff;
+$skyblue:#85cef8;
+$darkgrey: #222b2a;
+
+// GENERAL STYLES
 body{
-    background:rgb(133, 206, 248);
+    background:$skyblue;
 }
 fieldset{
     border: 0;
